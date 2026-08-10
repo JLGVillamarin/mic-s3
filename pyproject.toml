@@ -18,6 +18,7 @@ dev = [
     "pytest",
     "httpx",
     "pytest-cov",
+    "fpdf2",
 ]
 
 [build-system]
