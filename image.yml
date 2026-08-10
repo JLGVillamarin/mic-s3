@@ -1,0 +1,5 @@
+version: "1"
+image:
+  registry: docker.io
+  name: mic-s3
+  tag: latest

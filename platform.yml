@@ -1,0 +1,7 @@
+version: "1"
+platform:
+  type: python
+  version: "3.12"
+  resources:
+    cpu: 500m
+    memory: 512Mi

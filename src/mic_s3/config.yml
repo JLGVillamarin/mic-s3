@@ -1,0 +1,18 @@
+amiga:
+  servers:
+    rest:
+      host: 0.0.0.0
+      port: 8080
+      context_path: /mic-s3
+      cors:
+        enabled: true
+  data:
+    rdbms:
+      postgresql:
+        s3_db:
+          dialect: psycopg
+          host: ${DB_HOST:localhost}
+          port: ${DB_PORT:5432}
+          database_name: ${DB_NAME:s3}
+          username: ${DB_USER:s3}
+          password: ${DB_PASSWORD:s3}
